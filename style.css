@@ -222,7 +222,7 @@ body {
 }
 
 .gallery {
-  --d: 10s;
+  --d: 40s;
   /* duration */
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
