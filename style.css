@@ -20,7 +20,9 @@ body {
   animation: slide var(--d) infinite, z-order var(--d) infinite steps(1);
 }
 
-
+}.gallery img:last-child {
+  animation-name: slide, z-order-last;
+}
 .gallery > img:nth-child(1) {
   animation-delay: calc(0*var(--d));
   --r: 16deg;
@@ -126,9 +128,6 @@ body {
 }.gallery > img:nth-child(35) {
   animation-delay: calc(-0.70*var(--d));
   --r: -8deg;
-}.gallery img:last-child {
-  animation-name: slide, z-order-last;
-}
 
 @keyframes slide {
   10% {
