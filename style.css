@@ -1,10 +1,10 @@
 .gallery {
-  --d: 35s;
+  --d: 40s;
   /* duration */
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
-  width: 220px;
-  margin-left: 220px;
+  width: 280px;
+  margin-left: 280px;
 }
 body {
   font-family: "Microsoft JhengHei", "微軟正黑體", "PingFang TC", sans-serif;
@@ -20,9 +20,6 @@ body {
   animation: slide var(--d) infinite, z-order var(--d) infinite steps(1);
 }
 
-.gallery img:last-child {
-  animation-name: slide, z-order-last;
-}
 
 .gallery > img:nth-child(1) {
   animation-delay: calc(0*var(--d));
@@ -38,97 +35,99 @@ body {
   --r: 6deg;
 }.gallery > img:nth-child(5) {
   animation-delay: calc(-0.10*var(--d));
-  --r: -8deg;
+  --r: -10deg;
 }.gallery > img:nth-child(6) {
   animation-delay: calc(-0.12*var(--d));
-  --r: -8deg;
+  --r: -4deg;
 }.gallery > img:nth-child(7) {
   animation-delay: calc(-0.14*var(--d));
-  --r: -8deg;
+  --r: -6deg;
 }.gallery > img:nth-child(8) {
   animation-delay: calc(-0.16*var(--d));
-  --r: -8deg;
+  --r: -12deg;
 }.gallery > img:nth-child(9) {
   animation-delay: calc(-0.18*var(--d));
-  --r: -8deg;
+  --r: -10deg;
 }.gallery > img:nth-child(10) {
   animation-delay: calc(-0.20*var(--d));
   --r: -8deg;
 }.gallery > img:nth-child(11) {
   animation-delay: calc(-0.22*var(--d));
-  --r: -8deg;
+  --r: -18deg;
 }.gallery > img:nth-child(12) {
   animation-delay: calc(-0.24*var(--d));
-  --r: -8deg;
+  --r: -14deg;
 }.gallery > img:nth-child(13) {
   animation-delay: calc(-0.26*var(--d));
-  --r: -8deg;
+  --r: -12deg;
 }.gallery > img:nth-child(14) {
   animation-delay: calc(-0.28*var(--d));
-  --r: -8deg;
+  --r: -6deg;
 }.gallery > img:nth-child(15) {
   animation-delay: calc(-0.30*var(--d));
-  --r: -8deg;
+  --r: -10deg;
 }.gallery > img:nth-child(16) {
   animation-delay: calc(-0.32*var(--d));
-  --r: -8deg;
+  --r: -14deg;
 }.gallery > img:nth-child(17) {
   animation-delay: calc(-0.34*var(--d));
-  --r: -8deg;
+  --r: -12deg;
 }.gallery > img:nth-child(18) {
   animation-delay: calc(-0.36*var(--d));
-  --r: -8deg;
+  --r: -6deg;
 }.gallery > img:nth-child(19) {
   animation-delay: calc(-0.38*var(--d));
-  --r: -8deg;
+  --r: -10deg;
 }.gallery > img:nth-child(20) {
   animation-delay: calc(-0.40*var(--d));
-  --r: -8deg;
+  --r: -12deg;
 }.gallery > img:nth-child(21) {
   animation-delay: calc(-0.42*var(--d));
   --r: -8deg;
 }.gallery > img:nth-child(22) {
   animation-delay: calc(-0.44*var(--d));
-  --r: -8deg;
+  --r: -16deg;
 }.gallery > img:nth-child(23) {
   animation-delay: calc(-0.46*var(--d));
-  --r: -8deg;
+  --r: -10deg;
 }.gallery > img:nth-child(24) {
   animation-delay: calc(-0.48*var(--d));
-  --r: -8deg;
+  --r: -10deg;
 }.gallery > img:nth-child(25) {
   animation-delay: calc(-0.50*var(--d));
-  --r: -8deg;
+  --r: -12deg;
 }.gallery > img:nth-child(26) {
   animation-delay: calc(-0.52*var(--d));
-  --r: -8deg;
+  --r: -16deg;
 }.gallery > img:nth-child(27) {
   animation-delay: calc(-0.54*var(--d));
-  --r: -8deg;
+  --r: -6deg;
 }.gallery > img:nth-child(28) {
   animation-delay: calc(-0.56*var(--d));
   --r: -8deg;
 }.gallery > img:nth-child(29) {
   animation-delay: calc(-0.58*var(--d));
-  --r: -8deg;
+  --r: -6deg;
 }.gallery > img:nth-child(30) {
   animation-delay: calc(-0.60*var(--d));
-  --r: -8deg;
+  --r: -10deg;
 }.gallery > img:nth-child(31) {
   animation-delay: calc(-0.62*var(--d));
-  --r: -8deg;
+  --r: -12deg;
 }.gallery > img:nth-child(32) {
   animation-delay: calc(-0.64*var(--d));
-  --r: -8deg;
+  --r: -10deg;
 }.gallery > img:nth-child(33) {
   animation-delay: calc(-0.66*var(--d));
-  --r: -8deg;
+  --r: -6deg;
 }.gallery > img:nth-child(34) {
   animation-delay: calc(-0.68*var(--d));
-  --r: -8deg;
+  --r: -14deg;
 }.gallery > img:nth-child(35) {
   animation-delay: calc(-0.70*var(--d));
   --r: -8deg;
+}.gallery img:last-child {
+  animation-name: slide, z-order-last;
 }
 
 @keyframes slide {
@@ -178,7 +177,7 @@ body {
 #shine {
   font-size: 60px;
   font-weight: bold;
-  color: rgba(255, 0, 102, 0.3);
+  color: rgba(100, 148, 238, 0.3);
   z-index: 10;
   background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
   -webkit-background-size: 150px;
