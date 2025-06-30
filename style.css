@@ -1,7 +1,3 @@
-:root {
-  --duration: 40s; /* Duration for both desktop and mobile */
-}
-
 .gallery {
   --d: 40s;
   /* duration */
@@ -60,13 +56,13 @@ body {
   --r: -8deg;
 }.gallery > img:nth-child(11) {
   animation-delay: calc(-0.22*var(--d));
-  --r: -18deg;
+  --r: -9deg;
 }.gallery > img:nth-child(12) {
   animation-delay: calc(-0.24*var(--d));
-  --r: -14deg;
+  --r: -3deg;
 }.gallery > img:nth-child(13) {
   animation-delay: calc(-0.26*var(--d));
-  --r: -12deg;
+  --r: -2deg;
 }.gallery > img:nth-child(14) {
   animation-delay: calc(-0.28*var(--d));
   --r: -6deg;
@@ -75,7 +71,7 @@ body {
   --r: -10deg;
 }.gallery > img:nth-child(16) {
   animation-delay: calc(-0.32*var(--d));
-  --r: -14deg;
+  --r: -3deg;
 }.gallery > img:nth-child(17) {
   animation-delay: calc(-0.34*var(--d));
   --r: -12deg;
@@ -87,7 +83,7 @@ body {
   --r: -10deg;
 }.gallery > img:nth-child(20) {
   animation-delay: calc(-0.40*var(--d));
-  --r: -12deg;
+  --r: -6deg;
 }.gallery > img:nth-child(21) {
   animation-delay: calc(-0.42*var(--d));
   --r: -8deg;
