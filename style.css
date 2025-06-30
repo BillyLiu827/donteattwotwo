@@ -1,5 +1,5 @@
 .gallery {
-  --d: 40s;
+  --d: 50s;
   display: grid;
   place-items: center;
   width: 350px;
@@ -220,7 +220,7 @@ body {
 }
 
 .gallery {
-  --d: 40s;
+  --d: 50s;
   /* duration */
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
