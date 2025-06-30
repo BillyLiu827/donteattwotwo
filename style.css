@@ -2,7 +2,7 @@
   --d: 40s;
   display: grid;
   place-items: center;
-  width: 220px;
+  width: 350px;
   margin-left: 0; /* 移除原左外边距 */
   /* 新增以下属性 */
   justify-content: start; /* 网格内容左对齐 */
