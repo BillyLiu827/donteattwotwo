@@ -1,10 +1,12 @@
 .gallery {
   --d: 40s;
-  /* duration */
   display: grid;
-  place-items: center; /* Center both horizontally and vertically */
+  place-items: center;
   width: 220px;
-  margin-left: 220px;
+  margin-left: 0; /* 移除原左外边距 */
+  /* 新增以下属性 */
+  justify-content: start; /* 网格内容左对齐 */
+  margin-right: auto; /* 右侧自动外边距保持居中 */
 }
 body {
   font-family: "Microsoft JhengHei", "微軟正黑體", "PingFang TC", sans-serif;
@@ -178,7 +180,7 @@ body {
 #shine {
   font-size: 60px;
   font-weight: bold;
-  color: rgba(255, 0, 102, 0.3);
+  color:#5084e64d;
   z-index: 10;
   background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
   -webkit-background-size: 150px;
@@ -186,7 +188,7 @@ body {
   -webkit-animation-name: shine;
   -webkit-animation-duration: 3s; /* Adjust the duration as needed */
   -webkit-animation-iteration-count: infinite;
-  text-shadow: 0 0px 0px rgba(233, 85, 189, 0.419);
+  text-shadow: 0 0px 0px #5595f56b;
 
 }
 
